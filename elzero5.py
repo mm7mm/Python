@@ -1,0 +1,23 @@
+import os
+# print("=" *10)
+# os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# print(os.getcwd())
+# print(os.path.dirname(os.path.abspath(__file__)))
+#  print(os.path.abspath(__file__))
+
+# print("=" *10)
+
+myfile=open(r"G:\Corses\Python\Python\test.txt","r")
+# print(myfile.name)
+# print(myfile.mode)
+# print(myfile.encoding)
+# print(myfile.readline())
+# print(myfile.readline())
+# print(myfile.readline(5))
+# myfile.write("Hi My Name is mohamed\n\n\n")
+# myfile.write("Hi My Name is \n")
+# myfile.truncate(8)
+# print(myfile.tell())
+myfile.seek(11)
+print(myfile.read())
+os.remove(r"G:\Corses\Python\Python\o.txt")
