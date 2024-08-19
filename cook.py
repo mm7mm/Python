@@ -9,8 +9,7 @@ def display_recipe(self):
     print(f"Recipe: {self.name}")
     print(f"Ingredients: {self.ingredients}")
     print(f"Cooking Time: {self.cooking_time} minutes")
-    print("Instructions:{self.instructions}")
-    print("="*30)
+    print("Instructions:{self.instructions}")q
     
 def create_recipe():
     name = input("Enter recipe name: ")
